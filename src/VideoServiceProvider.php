@@ -19,6 +19,11 @@ class VideoServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__. '/views', 'video');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
+        $this->publishes([
+            __DIR__ . '/views' => resource_path('views/vendor/video')
+        ]);
+
+
     }
 
     /**
