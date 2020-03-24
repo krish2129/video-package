@@ -11,7 +11,7 @@ class PostController extends VoyagerBaseController
     protected $viewPath = 'video';
 
     /**
-     * Route: Gets all posts and passes data to a view
+     * Route: Gets all posts and passes Video data to a view
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
