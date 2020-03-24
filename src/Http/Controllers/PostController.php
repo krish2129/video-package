@@ -4,9 +4,10 @@ namespace Krts\Video\Http\Controllers;
 
 use Krts\Video\Models\Video;
 use Illuminate\Support\Carbon;
-use TCG\Voyager\Http\Controllers\VoyagerBaseController;
+# use TCG\Voyager\Http\Controllers\VoyagerBaseController;
+use App\Http\Controllers\Controller;
 
-class PostController extends VoyagerBaseController
+class PostController extends Controller
 {
     protected $viewPath = 'video';
 
