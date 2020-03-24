@@ -1,0 +1,26 @@
+{
+    "name": "krts/video",
+    "description": "A package to provide a video module",
+    "type": "library",
+    "require": {
+        "tcg/voyager": "1.1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krishnendu Sadhu",
+            "email": "43262321+krish2129@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Krts\\Video\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Krts\\Video\\": "src/"
+        }
+    }
+}
