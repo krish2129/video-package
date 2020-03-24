@@ -1,6 +1,6 @@
-@section('meta_title', 'Blog Posts')
-@section('meta_description', 'Blog Posts')
-@section('page_title', 'Blog Posts')
+@section('meta_title', 'Video Posts')
+@section('meta_description', 'Video Posts')
+@section('page_title', 'Video Posts')
 
 @foreach($posts as $post)
     {!! $post->title !!}
